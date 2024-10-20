@@ -1,70 +1,96 @@
-# Getting Started with Create React App
+# LearnWisely - Innovative Learning with AI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**LearnWisely** is an interactive educational platform designed to revolutionize learning using AI-driven decision-making and immersive experiences. It aims to engage users by blending real-time choices, puzzles, and 3D storytelling to make learning both fun and effective.
 
-## Available Scripts
+## Table of Contents
+- [Key Features](#key-features)
+- [Project Structure](#project-structure)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Challenges Faced](#challenges-faced)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-In the project directory, you can run:
+## Key Features
+- **Interactive Storytelling**: Engage with educational content through real-time decision-making and dynamic storylines.
+- **3D Learning Environments**: Explore immersive 3D game experiences that teach complex concepts in an interactive manner.
+- **Puzzle Games**: Solve challenging puzzles to reinforce learning, making the process enjoyable and memorable.
+- **Personalized Learning**: Tailored educational paths powered by AI to meet individual learning needs.
+- **BIS Standards Integration**: Optionally includes modules to teach Indian Standards through gamified content.
 
-### `npm start`
+## Project Structure
+The platform is built using **React.js**, **Node.js**, and **Three.js**, with a focus on responsiveness, scalability, and seamless user interaction. Below is a summary of the core files and functionalities:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Main Files
+- `App.js`: The core file that manages the routes and page rendering. It includes:
+  - Home page
+  - 2D and 3D game experiences
+  - Dark mode toggle functionality
+  - Game settings and login page management
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Routes
+- `/`: Home page with dark mode support.
+- `/login`: Login page with dark mode support.
+- `/rogue`: A 2D experience for puzzle-based learning.
+  - `/rogue/new-game`: Start a new 2D game.
+  - `/rogue/settings`: Modify settings for the 2D experience.
+- `/3d`: Experience a fully immersive 3D learning environment.
 
-### `npm test`
+## Technologies Used
+- **React.js**: Frontend framework for building a dynamic and responsive user interface.
+- **Node.js**: Backend runtime environment for managing API requests and game logic.
+- **MongoDB**: NoSQL database for storing user data and game progress.
+- **Three.js**: 3D rendering library for creating interactive visual experiences.
+- **Tailwind CSS**: Utility-first CSS framework for custom and responsive UI design.
+- **Local LLM**: AI-driven decision-making and personalization without external dependencies.
+- **Framer Motion**: Smooth animations and transitions for enhanced user experience.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/learnwisely.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd learnwisely
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm start
+   ```
 
-### `npm run build`
+## Usage
+- Visit the home page to explore the various game experiences.
+- Switch between 2D and 3D environments, each offering different interactive learning opportunities.
+- Log in to save your progress and access personalized content.
+- Adjust settings like dark mode and game preferences.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Challenges Faced
+One challenge was integrating a **local LLM** for AI-driven decision-making while ensuring smooth performance across various devices. Additionally, optimizing the 3D elements using **Three.js** posed challenges in maintaining visual quality without sacrificing performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contributing
+We welcome contributions to LearnWisely! If you'd like to contribute, please follow these steps:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/AmazingFeature`)
+3. Make your changes
+4. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+5. Push to the branch (`git push origin feature/AmazingFeature`)
+6. Open a Pull Request
 
-### `npm run eject`
+Please make sure to update tests as appropriate and adhere to the [Contributor Covenant](https://www.contributor-covenant.org/) code of conduct.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contact
+For any inquiries or contributions, please contact:
+- **Govind Dubey**: govindd.it.22@nitj.ac.in
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Project Link: [https://github.com/MrGovindDubey/LearnWisely/](https://github.com/MrGovindDubey/LearnWisely/)

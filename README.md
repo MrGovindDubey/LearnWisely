@@ -1,3 +1,6 @@
+![logo](https://github.com/user-attachments/assets/a8a04711-cfa8-4a40-a346-4d033f8ee4b4)
+
+
 # LearnWisely - Innovative Learning with AI
 
 **LearnWisely** is an interactive educational platform designed to revolutionize learning using AI-driven decision-making and immersive experiences. It aims to engage users by blending real-time choices, puzzles, and 3D storytelling to make learning both fun and effective.

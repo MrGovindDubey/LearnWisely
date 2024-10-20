@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 
+Light theme:
+    main bgrd : bg-white
+    nav items : text-grey-900
+    divider line : divide-gray-400
+    main heading txt : text-gray-900
+    para text : text-gray-600
+    
+Dark theme:
+    divider line : divide-gray-400
+    main bgrd : bg-slate-900
+    img alt txt : text-slate-500
+    nav items : text-slate-300
+    main heading txt : text-slate-100
+    para txt : text-slate-400
+    shadow : shadow-gray-800
+
+*/
